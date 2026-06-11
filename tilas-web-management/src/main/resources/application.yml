@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: tlias-web-management
+  #配置数据库链接信息
+  datasource:
+    url: jdbc:mysql://localhost:3306/tilas
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: dupengfei0.1
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+server:
+  port: 8081
